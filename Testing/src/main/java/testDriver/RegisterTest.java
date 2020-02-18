@@ -22,7 +22,7 @@ public WebDriver driver;
 	
 	@BeforeTest
 	public void initializeScript() {
-		System.setProperty("webdriver.chrome.driver", "E:\\Work\\eclipse-workspace\\Drivers\\chromedriver80.exe");
+		System.setProperty("webdriver.chrome.driver", "E:\\Work\\Java\\Selenium Java\\Selenium Web Drivers\\chromedriver80.exe");
 		driver = new ChromeDriver();
 		driver.manage().deleteAllCookies();
 		driver.manage().window().maximize();
